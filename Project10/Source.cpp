@@ -19,11 +19,11 @@ void task1() {
 void task2() {
 	int a, b, n, h, i, x;
 	float f;
-	printf("ââåäèòå íà÷àëî îòðåçêà:");
+	printf("Ã¢Ã¢Ã¥Ã¤Ã¨Ã²Ã¥ Ã­Ã Ã·Ã Ã«Ã® Ã®Ã²Ã°Ã¥Ã§ÃªÃ :");
 	scanf_s("%d", &a);
-	printf("ââåäèòå êîíåö îòðåçêà:");
+	printf("Ã¢Ã¢Ã¥Ã¤Ã¨Ã²Ã¥ ÃªÃ®Ã­Ã¥Ã¶ Ã®Ã²Ã°Ã¥Ã§ÃªÃ :");
 	scanf_s("%d", &b);
-	printf("ââåäèòå êîë-âî ÷àñòåé îòðåçêà:");
+	printf("Ã¢Ã¢Ã¥Ã¤Ã¨Ã²Ã¥ ÃªÃ®Ã«-Ã¢Ã® Ã·Ã Ã±Ã²Ã¥Ã© Ã®Ã²Ã°Ã¥Ã§ÃªÃ :");
 	scanf_s("%d", &n);
 	if (n > 2 && a < b) {
 		for (i = 0; i <= n; i++)
@@ -31,7 +31,7 @@ void task2() {
 			h = (b - a) / n;
 			x = a + i * h;
 			f = 1 - sin(x);
-			printf("çíà÷åíèå ôóíêöèè: %f\n", f);
+			printf("Ã§Ã­Ã Ã·Ã¥Ã­Ã¨Ã¥ Ã´Ã³Ã­ÃªÃ¶Ã¨Ã¨: %f\n", f);
 		}
 	}
 }
@@ -59,7 +59,7 @@ int main() {
 	setlocale(LC_ALL, "");
 	int task;
 	do {
-		printf("ââåäèòå íîìåð çàäàíèÿ:");
+		printf("Ã¢Ã¢Ã¥Ã¤Ã¨Ã²Ã¥ Ã­Ã®Ã¬Ã¥Ã° Ã§Ã Ã¤Ã Ã­Ã¨Ã¿:");
 		scanf_s("%d", &task);
 		switch (task) {
 		case 1:
@@ -74,13 +74,10 @@ int main() {
 		case 4:
 		{task4(); }
 		break;
-		case 5:
-		{task5(); }
-		break;
 		default:
 			break;
 		}
-		printf("âû õîòèòå ïîäîëæèòü 1/0?\n");
+		printf("Ã¢Ã» ÃµÃ®Ã²Ã¨Ã²Ã¥ Ã¯Ã®Ã¤Ã®Ã«Ã¦Ã¨Ã²Ã¼ 1/0?\n");
 		scanf_s("%d", &task);
 
 	} while (task != 0);
